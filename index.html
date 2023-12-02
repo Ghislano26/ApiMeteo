@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title>Document</title>
 </head>
 
@@ -22,12 +24,12 @@
 
             <form action="">
                 <div class="">
-                    <h1>Find Meteo your city</h1>
+                    <h1>Find the weather forecast for your city</h1>
                 </div>
                 <div class="container__find__input">
-                    <input type="text" placeholder="search city">
+                    <input type="text" placeholder="search city" id="city">
                 </div>
-                <input type="button" value="Search">
+                <input type="submit" value="Search">
             </form>
         </div>
 
@@ -37,14 +39,14 @@
                 <div class="container__meteo__city box" id="ville">
                     <!-- <h2>Yaounde</h2> -->
                 </div>
-                <div class="container__meteo__tmp box">
-                    <h2>32,65 °C</h2>
+                <div class="container__meteo__tmp box" id="tmp">
+                    <!-- <h2>32,65 °C</h2> -->
                 </div>
-                <div class="container__meteo__humid box">
-                    <h2>12 %</h2>
+                <div class="container__meteo__humid box" id="humid">
+                    <!-- <h2>12 %</h2> -->
                 </div>
-                <div class="container__meteo__vent box">
-                    <h2>42 km/H</h2>
+                <div class="container__meteo__vent box" id="vent">
+                    <!-- <h2>42 km/H</h2> -->
                 </div>
             </div>
 
