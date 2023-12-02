@@ -2,4 +2,4 @@
 
 <h2>Ici on fait quelques essai sur les API avec la method fetch en js</h2>
 
-# markdown
+# Markdown

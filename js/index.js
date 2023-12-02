@@ -3,7 +3,7 @@ async function fetchApp() {
   if (app.ok === true) {
     return app.json().then((data) => {
       console.log(data);
-      document.getElementById("ville").innerHTML = data.id;
+      document.getElementById("ville").innerHTML = data.tmp;
     });
   }
   throw new Error("impossible d'acceder au serveur");
