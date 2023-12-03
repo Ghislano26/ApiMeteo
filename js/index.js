@@ -1,3 +1,22 @@
+let name = new Typed(".nameChange", {
+  strings: ["Ateba Chouacha"],
+  typeSpeed: 100,
+  backSpeed: 300,
+  loop: true,
+  fadeOut: true,
+  fadeOutClass: "typed-fade-out",
+  fadeOutDelay: 600
+});
+
+let indication = new Typed(".indication", {
+  strings: ['Enter a city to get its current weather', 'eg : Yaounde', 'eg: Paris', 'eg: London', 'eg: Newyork','eg: Manchester'],
+  loop: false,
+  typeSpeed: 100,
+  backSpeed: 20,
+  fadeOutClass: "typed-fade-out",
+  fadeOutDelay: 200
+});
+
 const myApiKey = "8c28d7ff09fe18e0d7726382f4431c04";
 
 async function fetchApp(city) {
